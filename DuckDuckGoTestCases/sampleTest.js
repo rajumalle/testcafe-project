@@ -1,4 +1,4 @@
-import { Selector } from 'testcafe';
+import { Selector } from './DuckDuckGoTestCases/node_modules/testcafe';
 import { Colors } from 'colors'
 
 fixture `Getting Started`
@@ -28,24 +28,9 @@ fixture `Getting Started`
        // .takeScreenshot('screenshot2.png')
         .click(checkBox1)
         .wait(3000);
-
         const headerTitle= await headeObject.innerText;
         const headerText=await headerTextObject.innerText;
-      
-     
         console.log(headerTitle)
         console.log(headerText.rainbow)
 
     });
-
-    // test('My Second Test', async t =>{
-    //     await t
-    //     .wait(3000)
-    // });
-
-    // test
-    // .page `https://www.google.com`
-    // ('My Third Test', async t =>{
-    //     await t
-    //     .wait(3000)
-    // });

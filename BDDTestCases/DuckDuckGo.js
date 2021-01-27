@@ -1,5 +1,5 @@
 const {Given, When, Then, And} = require('cucumber');
-const Selector=require('testcafe').Selector;
+const Selector=require('../DuckDuckGoTestCases/node_modules/testcafe').Selector;
 
 Given('I am on the homepage', async function(){
     
