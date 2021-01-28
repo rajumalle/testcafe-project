@@ -19,10 +19,10 @@
 
 
 4. Installation Process:
-    4.1. create new folder using '$Mkdir Testcafe-project' from terminal 
-    4.2. Open above created folder in VS code
-    4.3 Open Terminal in VS code
-    4.4. Create package .json using '$npm init' command from terminal
+   4.1. create new folder using '$Mkdir Testcafe-project' from terminal 
+   4.2. Open above created folder in VS code
+   4.3 Open Terminal in VS code
+   4.4. Create package .json using '$npm init' command from terminal
         -Enter all appropriate details in terminal
             - for example:
             {
