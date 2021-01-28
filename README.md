@@ -1,11 +1,11 @@
 # testcafe-project
 1. This code base has 7 TestCafe test scenarios of DuckDuckGo Application.
-    -You can find testcases in package-'DuckDuckGoTestCase'
-    -These are main 7 testcases to test the Acceptance Criteria
+  -You can find testcases in package-'DuckDuckGoTestCase'
+  -These are main 7 testcases to test the Acceptance Criteria
 
 2. This code also has sample TestCafe & Cucumber Integrations test scenarios.
-    -You can find test-scenarios in feature file at-'BDDTestCases/TestScenarios.feature'
-    -you can find Stepdefinitions at location- 'BDDTestCases/DuckDuckGoStepdef.js'
+  -You can find test-scenarios in feature file at-'BDDTestCases/TestScenarios.feature'
+  -you can find Stepdefinitions at location- 'BDDTestCases/DuckDuckGoStepdef.js'
     -This is partially implemented
 
 3. Prerequisites for set up
