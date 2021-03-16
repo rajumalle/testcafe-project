@@ -3,7 +3,7 @@ import { Selector } from 'testcafe';
 export default class DevExpress{
     constructor(){
 
-        this.SearchBox = Selector('input#developer-name');
+        this.SearchBox = Selector('#developer-name');
 
         this.CheckBox1 = Selector('input#remote-testing');
         this.CheckBox2 = Selector('input#reusing-js-code');
@@ -14,6 +14,10 @@ export default class DevExpress{
 
         this.DropDown =  Selector('#preferred-interface');
         this.BothOption = Selector('option').withText('Both');
+
+        this.FinalCheckBox = Selector('input#tried-test-cafe')
+
+        this.TextAreaBox = Selector('#comments');
 
 
     }

@@ -1,6 +1,6 @@
 import { Selector } from 'testcafe';
 
-import DuckPage from '../Objects/Duck_Model';
+import DuckPage from '../ObjectsRepository/Duck_Model';
 const duckPage = new DuckPage();
 
 fixture `AC2 Fixture`
@@ -8,7 +8,6 @@ fixture `AC2 Fixture`
 
     test('AC2- Search results of super keyword', async t =>{
        
-        //const SearchBox = Selector('input#search_form_input_homepage');
         await t
             .wait(1000)
             .maximizeWindow()
